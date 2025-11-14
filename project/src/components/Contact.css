@@ -1,0 +1,324 @@
+.contact-section {
+  padding: 4rem 1rem;
+  background: #f8f6f0;
+  border-bottom: 3px double #000;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-box {
+  background: white;
+  border: 3px solid #000;
+  padding: 2rem;
+}
+
+.classified-style {
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.info-title {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  margin: 0 0 1rem;
+}
+
+.info-divider {
+  height: 2px;
+  background: #000;
+  margin: 1rem 0;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.info-label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.info-value {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.social-title {
+  font-family: 'Georgia', serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  margin: 1rem 0 0.8rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  color: #000;
+  text-decoration: none;
+  padding: 0.6rem;
+  border: 1px solid #000;
+  background: #f8f6f0;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: #000;
+  color: white;
+  transform: translateX(5px);
+}
+
+.social-icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+.social-link:hover .social-icon {
+  background: white;
+  color: #000;
+}
+
+.availability-notice {
+  background: #fff9e6;
+  border: 2px dashed #000;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.notice-title {
+  font-family: 'Georgia', serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0 0 1rem;
+}
+
+.notice-text {
+  font-family: 'Georgia', serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.contact-form-wrapper {
+  background: white;
+  border: 3px solid #000;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-box {
+  padding: 2rem;
+}
+
+.form-title {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  margin: 0 0 0.5rem;
+}
+
+.form-subtitle {
+  font-family: 'Georgia', serif;
+  font-size: 0.85rem;
+  font-style: italic;
+  text-align: center;
+  color: #666;
+  margin: 0 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: 2px solid #000;
+  background: #f8f6f0;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  background: white;
+  border-color: #c41e3a;
+  box-shadow: 0 0 0 3px rgba(196, 30, 58, 0.1);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 150px;
+  line-height: 1.6;
+}
+
+.status-message {
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  padding: 1rem;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-message.success {
+  background: #f0f9f0;
+  border-color: #2d7a2d;
+  color: #2d7a2d;
+}
+
+.status-message.error {
+  background: #fef0f0;
+  border-color: #c41e3a;
+  color: #c41e3a;
+}
+
+.status-icon {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.submit-button {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background: #000;
+  color: white;
+  border: 3px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.submit-button:hover:not(:disabled) {
+  background: #c41e3a;
+  border-color: #c41e3a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1024px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    order: 2;
+  }
+
+  .contact-form-wrapper {
+    order: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .info-box,
+  .form-box {
+    padding: 1.5rem;
+  }
+
+  .form-title {
+    font-size: 1.4rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 0.95rem;
+  }
+
+  .submit-button {
+    padding: 0.9rem 1.5rem;
+  }
+}

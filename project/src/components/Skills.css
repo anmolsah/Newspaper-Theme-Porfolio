@@ -1,0 +1,221 @@
+.skills-section {
+  padding: 4rem 1rem;
+  background: white;
+  border-bottom: 3px double #000;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-subtitle {
+  font-family: 'Georgia', serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.classifieds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.classified-box {
+  background: #f8f6f0;
+  border: 3px double #000;
+  padding: 0;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.classified-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #000 50%, transparent 50%);
+  background-size: 8px 4px;
+}
+
+.classified-header {
+  background: #000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+.classified-category {
+  font-family: 'Georgia', serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  margin: 0 0 0.3rem;
+  text-transform: uppercase;
+}
+
+.classified-ornament {
+  font-size: 0.8rem;
+  color: #c41e3a;
+}
+
+.classified-content {
+  padding: 1.5rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item {
+  font-family: 'Georgia', serif;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed #ccc;
+  color: #222;
+}
+
+.skill-item:last-child {
+  border-bottom: none;
+}
+
+.skill-name {
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.skill-dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted #999;
+  margin: 0 0.5rem;
+  min-width: 20px;
+}
+
+.skill-level {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #c41e3a;
+  background: white;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #c41e3a;
+  flex-shrink: 0;
+}
+
+.classified-footer {
+  background: #e0e0e0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-top: 2px solid #000;
+}
+
+.footer-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.skills-notice {
+  margin-top: 3rem;
+}
+
+.notice-box {
+  background: #fff9e6;
+  border: 3px solid #000;
+  padding: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.notice-box::before,
+.notice-box::after {
+  content: '★';
+  position: absolute;
+  font-size: 1.5rem;
+  color: #c41e3a;
+}
+
+.notice-box::before {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.notice-box::after {
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.notice-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #000;
+}
+
+.notice-text {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .classifieds-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .classified-content {
+    padding: 1rem;
+  }
+
+  .skill-item {
+    font-size: 0.85rem;
+  }
+
+  .notice-box {
+    padding: 1.5rem;
+  }
+
+  .notice-title {
+    font-size: 0.9rem;
+  }
+
+  .notice-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .classifieds-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

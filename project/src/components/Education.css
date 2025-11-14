@@ -1,0 +1,520 @@
+.education-section {
+  padding: 4rem 1rem;
+  background: white;
+  border-bottom: 3px double #000;
+}
+
+.education-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.announcement-box {
+  background: #f8f6f0;
+  border: 4px double #000;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.main-announcement {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-border-top,
+.announcement-border-bottom {
+  height: 8px;
+  background: repeating-linear-gradient(
+    45deg,
+    #000,
+    #000 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.announcement-header {
+  background: linear-gradient(180deg, #1a1a1a 0%, #000 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.seal {
+  width: 80px;
+  height: 80px;
+  border: 4px double white;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c41e3a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.seal-inner {
+  text-align: center;
+}
+
+.seal-text {
+  font-family: "Georgia", serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.seal-year {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.2rem;
+}
+
+.announcement-title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.announcement-content {
+  padding: 2.5rem;
+}
+
+.degree-info {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px double #000;
+}
+
+.degree-name {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.degree-field {
+  font-family: "Georgia", serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #444;
+  margin: 0;
+}
+
+.institution-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.institution-name {
+  font-family: "Georgia", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0 0 0.3rem;
+}
+
+.institution-location {
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+.period-grade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: white;
+  border: 2px solid #000;
+}
+
+.period,
+.grade {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.separator {
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.achievements-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-left: 4px solid #c41e3a;
+}
+
+.achievements-title {
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #000;
+  margin: 0 0 1rem;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievement-item {
+  font-family: "Georgia", serif;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.achievement-marker {
+  color: #c41e3a;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.announcement-footer {
+  background: #e0e0e0;
+  padding: 1rem;
+  text-align: center;
+  border-top: 2px solid #000;
+}
+
+.footer-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #666;
+  margin: 0;
+}
+
+.certifications-section {
+  margin-top: 3rem;
+}
+
+.certifications-title {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #000;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #000;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.certification-card {
+  background: white;
+  border: 2px solid #000;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.certification-card:hover {
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.cert-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cert-badge {
+  display: inline-block;
+  background: #c41e3a;
+  color: white;
+  font-family: "Georgia", serif;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  padding: 0.3rem 1rem;
+  border: 2px solid #000;
+}
+
+.cert-title {
+  font-family: "Georgia", serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000;
+  margin: 0 0 0.8rem;
+  text-align: center;
+}
+
+.cert-issuer {
+  font-family: "Georgia", serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.cert-date {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #999;
+  text-align: center;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+}
+
+.cert-link {
+  display: inline-block;
+  font-family: "Georgia", serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #c41e3a;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 2px solid #c41e3a;
+  background: white;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-top: 0.5rem;
+}
+
+.cert-link:hover {
+  background: #c41e3a;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(196, 30, 58, 0.3);
+}
+
+.education-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px double #000;
+}
+
+.footer-statement {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.footer-statement p {
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+}
+
+/* Dark Mode Styles */
+[data-theme="dark"] .education-section {
+  background: #1a1a1a;
+  border-bottom-color: #d4af37;
+}
+
+[data-theme="dark"] .announcement-box {
+  background: #2a2a2a;
+  border-color: #d4af37;
+}
+
+[data-theme="dark"] .announcement-border-top,
+[data-theme="dark"] .announcement-border-bottom {
+  background: repeating-linear-gradient(
+    45deg,
+    #d4af37,
+    #d4af37 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+[data-theme="dark"] .announcement-header {
+  background: linear-gradient(180deg, #d4af37 0%, #b8941f 100%);
+  color: #1a1a1a;
+}
+
+[data-theme="dark"] .seal {
+  border-color: #1a1a1a;
+  background: #c41e3a;
+}
+
+[data-theme="dark"] .announcement-title {
+  color: #1a1a1a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .degree-name,
+[data-theme="dark"] .achievements-title {
+  color: #d4af37;
+}
+
+[data-theme="dark"] .degree-field {
+  color: #b8b8b8;
+}
+
+[data-theme="dark"] .institution-name {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .institution-location {
+  color: #999;
+}
+
+[data-theme="dark"] .period-grade {
+  background: #1a1a1a;
+  border-color: #d4af37;
+}
+
+[data-theme="dark"] .period,
+[data-theme="dark"] .grade {
+  color: #d4af37;
+}
+
+[data-theme="dark"] .achievements-section {
+  background: #1a1a1a;
+  border-left-color: #d4af37;
+}
+
+[data-theme="dark"] .achievement-item {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .achievement-marker {
+  color: #d4af37;
+}
+
+[data-theme="dark"] .announcement-footer {
+  background: #2a2a2a;
+  border-top-color: #d4af37;
+}
+
+[data-theme="dark"] .footer-text {
+  color: #999;
+}
+
+[data-theme="dark"] .certifications-title {
+  color: #d4af37;
+  border-bottom-color: #d4af37;
+}
+
+[data-theme="dark"] .certification-card {
+  background: #2a2a2a;
+  border-color: #d4af37;
+  box-shadow: 3px 3px 0 rgba(212, 175, 55, 0.2);
+}
+
+[data-theme="dark"] .certification-card:hover {
+  box-shadow: 5px 5px 0 rgba(212, 175, 55, 0.3);
+}
+
+[data-theme="dark"] .cert-badge {
+  background: #d4af37;
+  color: #1a1a1a;
+  border-color: #d4af37;
+}
+
+[data-theme="dark"] .cert-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .cert-issuer {
+  color: #b8b8b8;
+}
+
+[data-theme="dark"] .cert-date {
+  color: #888;
+}
+
+[data-theme="dark"] .cert-link {
+  color: #d4af37;
+  border-color: #d4af37;
+  background: #1a1a1a;
+}
+
+[data-theme="dark"] .cert-link:hover {
+  background: #d4af37;
+  color: #1a1a1a;
+  box-shadow: 0 4px 8px rgba(212, 175, 55, 0.4);
+}
+
+[data-theme="dark"] .education-footer {
+  border-top-color: #d4af37;
+}
+
+[data-theme="dark"] .footer-statement p {
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .education-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .announcement-header {
+    padding: 1.5rem;
+  }
+
+  .announcement-title {
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .announcement-content {
+    padding: 1.5rem;
+  }
+
+  .degree-name {
+    font-size: 1.5rem;
+  }
+
+  .degree-field {
+    font-size: 1.1rem;
+  }
+
+  .period-grade {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+}
