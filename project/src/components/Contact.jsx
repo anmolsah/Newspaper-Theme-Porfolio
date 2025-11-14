@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { supabase } from "../lib/supabase";
+import VisitorCounter from "./VisitorCounter";
 import "./Contact.css";
 
 function Contact() {
@@ -53,6 +54,16 @@ function Contact() {
       setIsSubmitting(false);
     }
   };
+
+  useEffect(() => {
+    if (status.message) {
+      const timer = setTimeout(() => {
+        setStatus({ type: "", message: "" });
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [status.message]);
 
   return (
     <section id="contact" className="contact-section">
@@ -138,6 +149,7 @@ function Contact() {
                 Open to new opportunities and collaborations.
               </p>
               <p className="notice-text">Response time: Within 24 hours</p>
+              <VisitorCounter />
             </div>
           </motion.div>
 

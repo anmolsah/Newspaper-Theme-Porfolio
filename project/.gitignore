@@ -13,6 +13,8 @@ dist-ssr
 *.local
 
 .env
+docs/supabase_setup.sql
+docs/VISITOR_COUNTER_README.md
 
 # Editor directories and files
 .vscode/*
