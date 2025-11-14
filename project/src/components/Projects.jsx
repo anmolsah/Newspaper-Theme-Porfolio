@@ -43,8 +43,8 @@ function Projects() {
       date: 'October 2025',
       description: 'Designed and developed this unique newspaper-themed portfolio website featuring smooth animations, responsive layout, and creative presentation of professional information.',
       technologies: ['React', 'Framer Motion', 'CSS Grid', 'Vite'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: '#https://newspaper-theme-porfolio.vercel.app/',
+      githubUrl: '#https://github.com/anmolsah/Newspaper-Theme-Porfolio/tree/main/project',
       featured: true
     },
     {
