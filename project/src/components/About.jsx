@@ -14,6 +14,7 @@ function About() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-title">FEATURE ARTICLE</h2>
+
           <div className="title-decoration">────────</div>
         </motion.div>
 
@@ -25,18 +26,23 @@ function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <h3 className="article-headline">
-            Meet the Developer: A Profile in Innovation and Dedication
+            Anmol Sah: The Full-Stack Builder Integrating AI into Everyday Apps
           </h3>
+
           <p className="article-subhead">
-            From Student to Professional - The Journey of a Rising Tech Talent
+            From MERN Stack Mastery to Continuous Learning with TypeScript
           </p>
         </motion.div>
 
         <div className="article-meta">
           <span className="meta-item">CAREER PROFILE</span>
+
           <span className="meta-separator">•</span>
+
           <span className="meta-item">SPECIAL FEATURE</span>
+
           <span className="meta-separator">•</span>
+
           <span className="meta-item">PAGE 1</span>
         </div>
 
@@ -48,8 +54,11 @@ function About() {
             viewport={{ once: true }}
             transition={{
               duration: 0.8,
+
               delay: 0.3,
+
               type: "spring",
+
               stiffness: 100,
             }}
           >
@@ -69,6 +78,7 @@ function About() {
                   className="profile-photo"
                 />
               </motion.div>
+
               <motion.p
                 className="image-caption"
                 initial={{ opacity: 0, y: 10 }}
@@ -93,12 +103,13 @@ function About() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <p className="article-paragraph first-paragraph">
-              <span className="drop-cap-small">I</span>n the ever-evolving
-              landscape of technology, where innovation meets dedication,
-              emerges a promising talent ready to make their mark. As a recent
-              graduate with a passion for creating elegant solutions to complex
-              problems, I bring fresh perspectives combined with solid technical
-              foundations.
+              <span className="drop-cap-small">I</span> am Anmol Sah, a recent
+              college graduate and a dedicated Full-Stack Developer with a
+              passion for the MERN stack. My expertise lies in building
+              applications completely, from the first line of code to the final
+              finished product. I focus on creating innovative solutions that
+              can genuinely benefit people, like my AI-powered travel planner,
+              Rahi, or the smart movie recommendation system, Movieco.
             </p>
 
             <motion.div
@@ -110,27 +121,33 @@ function About() {
               whileHover={{ scale: 1.02 }}
             >
               <div className="pullquote-marks">"</div>
+
               <p className="pullquote-text">
-                Code is poetry, and every project is an opportunity to craft
-                something meaningful that impacts real people's lives.
+                The satisfaction of bringing an idea to life, integrating new
+                tech like AI, and seeing an application work is what truly
+                drives me.
               </p>
+
               <div className="pullquote-marks closing">"</div>
             </motion.div>
 
             <p className="article-paragraph">
-              My journey into technology began with curiosity and evolved into a
-              dedicated pursuit of excellence. Throughout my academic career,
-              I've consistently sought to push beyond the curriculum, exploring
-              modern frameworks, design patterns, and best practices that define
-              contemporary software development.
+              My core strength is in the MERN stack, but I constantly look to
+              expand my toolkit. Services like Supabase and Firebase have been
+              excellent for speeding up my workflow, allowing me to build
+              proof-of-concept projects and MVPs quickly. I’ve also built SaaS
+              applications like NexoraAI, which acts as an all-in-one content
+              generation platform—from blog writing to image editing.
             </p>
 
             <p className="article-paragraph">
-              What sets me apart is not just technical proficiency, but a
-              genuine enthusiasm for learning and adapting. In an industry where
-              change is the only constant, I thrive on staying current with
-              emerging technologies while maintaining a strong grasp of
-              fundamental principles.
+              My strong foundation in problem-solving and logical thinking comes
+              from mastering Data Structures and Algorithms (DSA) using C++.
+              Currently, I am focused on learning and building projects with
+              TypeScript because I love the type safety it offers, which helps
+              catch errors early and results in more secure, reliable
+              applications. I also recently explored and applied Docker to a few
+              projects to manage deployments better.
             </p>
 
             <motion.div
@@ -140,7 +157,8 @@ function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              <h4 className="info-box-title">CORE COMPETENCIES</h4>
+              <h4 className="info-box-title">KEY STRENGTHS</h4>
+
               <ul className="competencies-list">
                 {[
                   "Full-stack web development with modern frameworks",
@@ -164,18 +182,22 @@ function About() {
             </motion.div>
 
             <p className="article-paragraph">
-              Beyond the technical realm, I understand that great software is
-              built by great teams. I value clear communication, constructive
-              feedback, and the collaborative spirit that turns good ideas into
-              exceptional products. My goal is to contribute meaningfully to
-              projects while continuing to grow as a developer and team member.
+              Building great software also requires great teamwork. My
+              internship as a Teaching Assistant at Coding Ninjas, where I
+              handled over a thousand student queries, taught me the importance
+              of clear communication and patience. This experience not only
+              boosted my confidence but also helped me continuously reinforce my
+              own technical concepts by explaining them to others.
             </p>
 
             <p className="article-paragraph last-paragraph">
-              As I embark on my professional journey, I'm eager to bring my
-              skills, enthusiasm, and commitment to a team that values
-              innovation and growth. The story is just beginning, and the next
-              chapter promises to be the most exciting yet.
+              Whenever I hit a complex bug or a new challenge, I use AI tools to
+              quickly identify the cause, which I then verify by diving deep
+              into the official documentation. I&apos;m eager to bring my
+              enthusiasm, proven building skills, and commitment to learning to
+              a team that is driven by innovation. My professional journey is
+              just taking off, and I am excited about the challenging work
+              ahead.
             </p>
 
             <div className="article-end">■</div>
