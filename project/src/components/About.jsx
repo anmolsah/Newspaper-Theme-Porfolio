@@ -30,7 +30,7 @@ function About() {
           </h3>
 
           <p className="article-subhead">
-            From MERN Stack Mastery to Continuous Learning with TypeScript
+            From MERN Stack Mastery to Continuous Learning 
           </p>
         </motion.div>
 
@@ -103,7 +103,7 @@ function About() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <p className="article-paragraph first-paragraph">
-              <span className="drop-cap-small">I</span> am Anmol Sah, a recent
+              <span className="drop-cap-small drop-cap">I</span> am Anmol Sah, a recent
               college graduate and a dedicated Full-Stack Developer with a
               passion for the MERN stack. My expertise lies in building
               applications completely, from the first line of code to the final

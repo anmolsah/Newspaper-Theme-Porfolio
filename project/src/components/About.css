@@ -83,12 +83,28 @@
   gap: 2rem;
 }
 
+@media (min-width: 769px) {
+  .article-content {
+    grid-template-columns: 350px 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+}
+
 .profile-image-container {
   width: 100%;
   max-width: 350px;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
   perspective: 1000px;
   display: block;
+}
+
+@media (min-width: 769px) {
+  .profile-image-container {
+    margin: 0;
+    position: sticky;
+    top: 2rem;
+  }
 }
 
 .profile-image-frame {
@@ -336,16 +352,6 @@
 
   .info-box {
     padding: 1rem;
-  }
-}
-
-@media (min-width: 769px) {
-  .article-content {
-    grid-template-columns: 1fr;
-  }
-
-  .profile-image-container {
-    margin: 0 auto 2rem;
   }
 }
 
