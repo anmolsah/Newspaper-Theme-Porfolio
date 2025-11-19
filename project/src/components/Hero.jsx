@@ -4,7 +4,7 @@ import "./Hero.css";
 
 function Hero() {
   const fullText =
-    "Talented Developer Enters Job Market, Ready to Transform Ideas Into Reality";
+    "Fullstack Developer Enters Job Market, Ready to Transform Ideas Into Reality";
   const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
 
